@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+}
+.button {
+  text-align: center;
+  margin: auto 100px;
+}
+.button button {
+  width: 200px;
+  height: 150px;
+}
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.auth_button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.google_auth {
+  margin-top: 20px;
+  width: 20%;
+}
+.text_auth {
+  font-size: 24px;
+}
+.vk_auth {
+  margin: 20px 20%;
+  width: 20%;
+}
+.vk_btn {
+  width: 100%;
+}
+.google_btn {
+  width: 100%;
+}
+.vk_link {
+  text-decoration: none;
+  color: black;
+}
+.vk_link:hover {
+  color: black;
+}
+.vk_link:active {
+  color: black;
+}
+.logout {
+  text-align: center;
+}
